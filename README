@@ -1,0 +1,8 @@
+#
+用于对比deiban和deepin预装软件的差别。
+1.debian系统安装完成之后，执行命令:
+dpkg -l | awk '{if($1=="ii")printf"%-50s   %-50s \n",$2,$3}' > debian.p 
+2.deepin系统安装完成之后，执行命令：
+dpkg -l | awk '{if($1=="ii")printf"%-50s   %-50s \n",$2,$3}' > deepin.p 
+3.执行脚本，查看debian和deepin预装软件的版本差异。
+
