@@ -13,9 +13,6 @@ arj                                                  3.10.22-18
 aspell                                               0.60.7~20110707-6                                  
 aspell-en                                            2018.04.16-0-1                                     
 attr                                                 1:2.4.48-4                                         
-autoconf                                             2.69-10                                            
-automake                                             1:1.15-6                                           
-autotools-dev                                        20161112.1                                         
 avfs                                                 1.0.6-1                                            
 bamfdaemon                                           0.5.4-1                                            
 base-files                                           2019.07deepin-4+rebuild                            
@@ -216,6 +213,8 @@ gir1.2-notify-0.7:amd64                              0.7.7-4
 gir1.2-packagekitglib-1.0                            1.1.12-5                                           
 gir1.2-pango-1.0:amd64                               1.42.4-6                                           
 gir1.2-polkit-1.0                                    0.105-25                                           
+git                                                  1:2.11.0-3+deb9u4                                  
+git-man                                              1:2.11.0-3+deb9u4                                  
 glib-networking:amd64                                2.58.0-2                                           
 glib-networking-common                               2.58.0-2                                           
 glib-networking-services                             2.58.0-2                                           
@@ -467,6 +466,7 @@ libelf1:amd64                                        0.176-1.1
 libenchant1c2a:amd64                                 1.6.0-11.1+b1                                      
 libencode-locale-perl                                1.05-1                                             
 libepoxy0:amd64                                      1.5.3-0.1                                          
+liberror-perl                                        0.17024-1                                          
 libestr0:amd64                                       0.1.10-2.1                                         
 libevdev2:amd64                                      1.6.0+dfsg-1                                       
 libevdocument3-4:amd64                               3.30.2-3                                           
@@ -1258,7 +1258,6 @@ lvm2                                                 2.03.02-3
 lzip                                                 1.21-3                                             
 lzma                                                 9.22-2.1                                           
 lzop                                                 1.03-4+b1                                          
-m4                                                   1.4.18-1                                           
 make                                                 4.2.1-1.2                                          
 man-db                                               2.8.5-2                                            
 mariadb-common                                       1:10.3.15-1                                        
@@ -1457,6 +1456,7 @@ socat                                                1.7.3.2-2
 sogoupinyin                                          2.2.0.0108                                         
 sound-theme-freedesktop                              0.8-2                                              
 squashfs-tools                                       1:4.3-12                                           
+ssh                                                  1:7.4p1-10+deb9u6                                  
 ssl-cert                                             1.0.39                                             
 sstp-client                                          1.0.13-1                                           
 startdde                                             5.0.1+c1-1                                         

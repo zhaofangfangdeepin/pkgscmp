@@ -7,12 +7,12 @@ debian={}
 deepin={}
 
 for line in open("debian.p"):
-    pkgs=line.split(' ',1)[0].strip()
+    pkgs=line.split(' ',1)[0].strip().split(':',1)[0]
     ver=line.split(' ',1)[1].strip().strip('\n')
     debian[pkgs]=ver
 
 for line in open("deepin.p"):
-    pkgs=line.split(' ',1)[0].strip()
+    pkgs=line.split(' ',1)[0].strip().split(':',1)[0]
     ver=line.split(' ',1)[1].strip().strip('\n')
     deepin[pkgs]=ver
 
